@@ -1,2 +1,7 @@
-# portfolio_website_rebuild
-Since creating my old portfolio website was quite some time ago, I decided to rebuild it from scratch to revisit and strengthen the concepts.
+# Portfolio Website Rebuild
+Rebuilding my old portfolio website from scratch to revisit and strengthen my frontend fundamentals.
+
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
