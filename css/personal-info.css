@@ -1,0 +1,51 @@
+/* section 1 - personal info */
+
+.personal-info {
+    display: flex;
+    align-items: center;
+    padding: 0 90px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    gap: 60px;
+    color: black;
+}
+
+.personal-info .text h2 {
+    font-size: 40px;
+}
+
+.personal-info .text .quickjumps a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    display: inline-block;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.9s ease, box-shadow 0.5s ease;
+}
+
+.personal-info .text .quickjumps a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    border-color: black;
+}
+
+.personal-info .image {
+    display: flex;
+    justify-content: right;
+}
+
+.personal-info .image img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1.5px solid gray;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease-out;
+}
+
+.personal-info .image img:hover {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.6);
+}
