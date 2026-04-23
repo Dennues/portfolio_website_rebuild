@@ -1,1 +1,69 @@
 /* section 3 - projects */
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0px 90px;        /* space INSIDE element's border */
+
+    color: black;
+    font-size: 20px;
+}
+
+.project-section h2 {
+    font-size: 40px;
+}
+
+.project-section .cells {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 50px;
+}
+
+.project-section .cells .project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+    color: black;
+
+    border: 1.5px solid black;
+    border-radius: 10px;
+
+    margin-right: 50px;
+    padding: 25px 50px 25px 50px;
+
+    transition: 0.5s;
+}
+
+.project-section .cells .project-card:last-child {
+    margin-right: 0px;
+}
+
+.project-section .cells .project-card p {
+    max-width: 300px;
+}
+
+.project-section .cells .project-card img {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.project-section .cells .project-card i {
+    font-size: 15px;
+    margin-left: 5px;
+
+    transition: 0.5s;
+}
+
+.project-section .cells .project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.project-section .cells .project-card:hover i {
+    transform: translateX(3px);
+    color: darkcyan;
+}

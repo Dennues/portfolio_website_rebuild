@@ -3,26 +3,31 @@
 .skills-section {
     flex-direction: column;
     align-items: center;
+
     padding: 0 90px;        /* space INSIDE element's border */
-    margin-bottom: 100px;   /* space OUTSIDE the border*/
+    margin-bottom: 50px;
+
     color: black;
+    font-size: 20px;
 }
 
 .skills-section .header-text {
     display: flex;
     align-items: center;
+
     gap: 40px;
 }
 
 @keyframes blink {
-    0% { border-color: black; }
+    0% { border-color: grey; }
     50% { border-color: transparent; }
-    100% { border-color: black; }
+    100% { border-color: grey; }
 }
 
 .skills-section .header-text h2 {
     font-size: 40px;
-    border-right: 2px solid black;
+
+    border-right: 2px solid grey;
     animation: blink 1.5s infinite;
 }
 
@@ -39,8 +44,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
 
+    gap: 10px;
     width: 100px;
     height: 20px;
     padding: 10px 20px;

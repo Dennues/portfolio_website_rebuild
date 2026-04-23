@@ -3,11 +3,14 @@
 .personal-info {
     display: flex;
     align-items: center;
+
     padding: 0 90px;        /* space INSIDE element's border */
     margin-top: 80px;       /* space OUTSIDE the border*/
     margin-bottom: 50px;
     gap: 60px;
+
     color: black;
+    font-size: 20px;
 }
 
 .personal-info .text h2 {
@@ -16,20 +19,23 @@
 
 .personal-info .text .quickjumps a {
     display: inline-block;
+
+    margin: 10px 10px 10px 0;
     height: 20px;
     padding: 5px;
+
     text-decoration: none;
+
     color: black;
+
     border: 1.5px solid black;
     border-radius: 10px;
-    margin: 10px 10px 10px 0;
-    transition: transform 0.9s ease, box-shadow 0.5s ease;
+    transition: 0.5s;
 }
 
 .personal-info .text .quickjumps a:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.4);
-    border-color: black;
 }
 
 .personal-info .image {
@@ -39,8 +45,10 @@
 
 .personal-info .image img {
     width: 300px;
-    border-radius: 10px;
+
     border: 1.5px solid gray;
+    border-radius: 10px;
+    
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     transition: all 0.5s ease-out;
 }
